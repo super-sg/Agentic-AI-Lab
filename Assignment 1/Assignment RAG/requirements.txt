@@ -1,0 +1,39 @@
+# Data Collection
+arxiv>=2.1.0
+
+# PDF Processing
+PyPDF2>=3.0.0
+pdfplumber>=0.11.0
+
+# Text Processing & Chunking
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-text-splitters>=0.3.0
+
+# Embeddings
+sentence-transformers>=3.0.0
+
+# Vector Store
+faiss-cpu>=1.13.0
+
+# LLM Providers
+langchain-openai>=0.3.0
+# For local LLM: pip install langchain-ollama
+
+# Visualization
+matplotlib>=3.9.0
+seaborn>=0.13.0
+scikit-learn>=1.5.0
+
+# Notebook
+jupyter>=1.0.0
+ipywidgets>=8.0.0
+
+# Streamlit UI
+streamlit>=1.40.0
+
+# Utilities
+tqdm>=4.65.0
+python-dotenv>=1.0.0
+numpy>=1.26.0
+pandas>=2.1.0

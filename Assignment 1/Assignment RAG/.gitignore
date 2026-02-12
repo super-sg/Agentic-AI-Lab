@@ -1,0 +1,33 @@
+# Data
+data/papers/*.pdf
+data/papers_metadata.json
+
+# Vector store
+data/faiss_index/
+*.faiss
+*.pkl
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
